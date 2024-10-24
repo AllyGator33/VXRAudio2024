@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Audio;
 
 
-public class Panager : MonoBehaviour
+public class AudioManager : MonoBehaviour
 {
     public AudioSource audio1, audio2;
     public AudioClip myClip;
