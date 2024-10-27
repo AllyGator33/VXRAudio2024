@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 430029807}
   - component: {fileID: 430029811}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,7 +285,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.3766698
   MaxDistance: 10
   Pan2D: 0
   rolloffMode: 1
@@ -472,7 +472,7 @@ MonoBehaviour:
   airAbsorptionLow: 1
   airAbsorptionMid: 1
   airAbsorptionHigh: 1
-  directivity: 0
+  directivity: 1
   directivityInput: 0
   dipoleWeight: 0
   dipolePower: 0
@@ -480,11 +480,11 @@ MonoBehaviour:
   occlusion: 1
   occlusionInput: 0
   occlusionType: 0
-  occlusionRadius: 1
+  occlusionRadius: 1.2
   occlusionSamples: 16
   occlusionValue: 1
-  transmission: 0
-  transmissionType: 0
+  transmission: 1
+  transmissionType: 1
   transmissionInput: 0
   transmissionLow: 1
   transmissionMid: 1
@@ -618,7 +618,7 @@ Transform:
   m_GameObject: {fileID: 1056647401}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.73, y: 1.982, z: -6.82}
+  m_LocalPosition: {x: 0.364, y: 1.982, z: -5.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -884,7 +884,7 @@ MonoBehaviour:
   dipoleWeight: 0.8
   dipolePower: 1.25
   directivityValue: 1
-  occlusion: 1
+  occlusion: 0
   occlusionInput: 0
   occlusionType: 0
   occlusionRadius: 1
@@ -1199,7 +1199,7 @@ GameObject:
   - component: {fileID: 2080489536}
   - component: {fileID: 2080489535}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
