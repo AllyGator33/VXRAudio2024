@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class StopAudio : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
+    private AudioSource audioSource;
+
     void Start()
     {
-        
+        // Get the AudioSource component from this GameObject
+        audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnMouseDown()
     {
-        
+        // Check if the audio source is playing, then stop it
+        if (audioSource != null && audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
     }
 }
+
